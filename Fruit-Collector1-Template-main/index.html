@@ -1,0 +1,54 @@
+<!DOCTYPE html><html lang="en">
+  <head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.sound.min.js"></script>
+  <script src="libraries/matter.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/player.js"></script>
+  <!-- Link game.js and player.js -->
+
+
+
+  <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-database.js"></script>
+
+
+  <script>
+  // Your web app's Firebase configuration
+ 
+
+  // Initialize Firebase
+  //const app = initializeApp(firebaseConfig);
+
+  const firebaseConfig = {
+  apiKey: "AIzaSyBEeQkdtO039FAeHrlAtpXYbNwvO0KMKWU",
+  authDomain: "fruit-5cc4e.firebaseapp.com",
+  databaseURL: "https://fruit-5cc4e-default-rtdb.firebaseio.com",
+  projectId: "fruit-5cc4e",
+  storageBucket: "fruit-5cc4e.appspot.com",
+  messagingSenderId: "806970180470",
+  appId: "1:806970180470:web:a071996fd758adb62af057"
+};  
+      
+      
+      // // Initialize Firebase
+      // firebase.initializeApp(firebaseConfig);
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+
+  </script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+</head>
+
+<body>
+  <script src="sketch.js"></script>
+</body>
+
+</html>
